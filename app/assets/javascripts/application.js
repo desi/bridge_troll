@@ -17,7 +17,9 @@
 //= require underscore
 //= require gmaps/google
 //= require backbone
-//= require backbone-super
+//= require backbone_rails_sync
+//= require backbone_datalink
+//= require backbone/bridgetroll
 //= require bridgetroll
 //= require_tree ../templates
 //= require_tree ./enums

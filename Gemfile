@@ -7,7 +7,6 @@ ruby '2.7.1'
 gem 'active_hash'
 # OPTIMIZE: and cache expensive computations for faster boot times. It's
 # `require`d in a specific way in config/boot.rb
-gem 'backbone-on-rails'
 gem 'bootsnap', require: false
 gem 'bootstrap-sass'
 gem 'coffee-rails'
@@ -68,6 +67,7 @@ group :test, :development do
   gem 'jasmine-jquery-rails'
   gem 'parallel_tests'
   gem 'pry'
+  gem 'rails-backbone'
   gem 'rails-controller-testing', require: false
   gem 'rake', require: false
   gem 'rspec-collection_matchers'
